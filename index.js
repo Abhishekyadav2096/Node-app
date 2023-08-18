@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  return res.send("ABHISHEK YADAV CICD PIPELINE");
+  return res.send("ABHISHEK YADAV");
 });
 
 app.listen(5001, () => {
